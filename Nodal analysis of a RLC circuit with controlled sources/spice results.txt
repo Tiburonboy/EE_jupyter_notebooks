@@ -1,0 +1,75 @@
+* C:\Users\Jim\Documents\Projects\python circuits\Johnson fig4-8\Johnson fig4-8.asc
+R1 1 4 2
+R2 1 2 1
+R3 4 3 1
+R4 2 5 2
+V1 1 0 2
+I1 4 0 9
+H1 2 3 V2 3
+G1 0 3 1 4 2
+V2 0 5 0
+.op
+.backanno
+.end
+
+       --- Operating Point ---
+
+V(1):	 2	 voltage
+V(4):	 -2	 voltage
+V(2):	 2	 voltage
+V(3):	 5	 voltage
+V(5):	 0	 voltage
+I(H1):	 -1	 device_current
+I(I1):	 9	 device_current
+I(R4):	 1	 device_current
+I(R3):	 -7	 device_current
+I(R2):	 2.22045e-016	 device_current
+I(R1):	 2	 device_current
+I(G1):	 8	 device_current
+I(V2):	 -1	 device_current
+I(V1):	 -2	 device_current
+
+
+Ac analysis
+With V1 as AC source DC=0
+
+* C:\Users\Jim\Documents\Projects\python circuits\Johnson fig4-8\Johnson fig4-8a.asc
+R1 1 4 2
+R4 2 5 2
+V1 1 0 AC 1
+I1 4 0 9
+H1 2 3 V2 3
+G1 0 3 1 4 2
+V2 0 5 0
+L1 4 3 1
+C1 1 2 1
+;op
+.ac list 0.159155
+.backanno
+.end
+
+       --- AC Analysis ---
+
+frequency:	0.159155	Hz
+V(1):	mag:          1 phase: 1.59028e-015° 	voltage
+V(4):	mag:    1.00002 phase:    14.2492° 	voltage
+V(2):	mag:   0.350839 phase:    15.2626° 	voltage
+V(5):	mag:          0 phase:          0° 	voltage
+V(3):	mag:   0.877098 phase:    15.2626° 	voltage
+I(C1):	mag:   0.667951 phase:    82.0524° 	device_current
+I(H1):	mag:   0.620141 phase:     97.121° 	device_current
+I(L1):	mag:   0.124028 phase:    -82.879° 	device_current
+I(I1):	mag:          0 phase:          0° 	device_current
+I(R4):	mag:    0.17542 phase:    15.2626° 	device_current
+I(R1):	mag:   0.124028 phase:    -82.879° 	device_current
+I(G1):	mag:   0.496112 phase:    -82.879° 	device_current
+I(V2):	mag:    0.17542 phase:   -164.737° 	device_current
+I(V1):	mag:   0.549135 phase:   -101.314° 	device_current
+
+
+
+
+
+
+
+
