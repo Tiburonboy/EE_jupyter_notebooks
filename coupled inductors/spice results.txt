@@ -1,0 +1,66 @@
+* C:\Users\Jim\Documents\Projects\python circuits\coupled inductors\coupled inductors circuit 1.asc
+L1 0 3 2
+L2 0 4 3
+C1 2 4 0.33333
+R1 1 2 10
+R2 2 3 1
+V1 1 0 AC 1
+K1 L1 L2 0.20412
+;op
+.ac list   0.159155
+.backanno
+.end
+
+
+       --- AC Analysis ---
+
+frequency:	0.159155	Hz
+V(3):	mag:  0.0390384 phase:     19.138° 	voltage
+V(4):	mag:   0.363282 phase:     100.49° 	voltage
+V(2):	mag:  0.0174613 phase:   -44.2986° 	voltage
+V(1):	mag:          1 phase:          0° 	voltage
+I(C1):	mag:   0.125893 phase:    12.0179° 	device_current
+I(L2):	mag:   0.125893 phase:   -167.982° 	device_current
+I(L1):	mag:  0.0349175 phase:    45.7077° 	device_current
+I(R2):	mag:  0.0349175 phase:   -134.292° 	device_current
+I(R1):	mag:  0.0987578 phase:   0.707527° 	device_current
+I(V1):	mag:  0.0987578 phase:   -179.292° 	device_current
+
+
+* C:\Users\Jim\Documents\Projects\python circuits\coupled inductors\coupled inductors circuit 2.asc
+R1 1 2 2
+R2 1 4 16
+R3 6 7 20
+C1 2 3 0.25
+C2 5 6 0.08333
+L1 4 6 8
+L2 0 3 55
+L3 0 5 220
+V1 1 0 AC 40 60
+V2 7 0 AC 30 0
+K1 L2 L3 1
+.ac list   0.159155
+.backanno
+.end
+
+
+       --- AC Analysis ---
+
+frequency:	0.159155	Hz
+V(1):	mag:         40 phase:         60° 	voltage
+V(2):	mag:    38.4992 phase:    51.2077° 	voltage
+V(4):	mag:     34.818 phase:    68.0594° 	voltage
+V(6):	mag:     32.103 phase:    63.7843° 	voltage
+V(7):	mag:         30 phase: -6.78518e-015° 	voltage
+V(3):	mag:    26.3517 phase:    55.6944° 	voltage
+V(5):	mag:    52.7034 phase:    55.6944° 	voltage
+I(C2):	mag:    1.78344 phase:    133.508° 	device_current
+I(C1):	mag:    3.10021 phase:    131.639° 	device_current
+I(L3):	mag:    1.78344 phase:    133.508° 	device_current
+I(L2):	mag:    3.10021 phase:   -48.3613° 	device_current
+I(L1):	mag:   0.460827 phase:    18.5433° 	device_current
+I(R3):	mag:    1.64295 phase:    118.777° 	device_current
+I(R2):	mag:   0.460827 phase:    18.5433° 	device_current
+I(R1):	mag:    3.10021 phase:    131.639° 	device_current
+I(V2):	mag:    1.64295 phase:    118.777° 	device_current
+I(V1):	mag:    2.95006 phase:   -56.6227° 	device_current
