@@ -2,4 +2,4 @@
 
 The main notebok is: `Twin-T_Active_Bandpass_Filter.ipynb`
 
-![Schematic for Bandpass Twin-T Active Filter with componets for the 1000 Hz band pass filter.](Bandpass_Twin-T_Active_Filter.png){width=600}
+![Schematic for Bandpass Twin-T Active Filter with componets for the 1000 Hz band pass filter.](Bandpass_Twin-T_Active_Filter.png)
