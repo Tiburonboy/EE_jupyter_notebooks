@@ -1,6 +1,6 @@
 > [!NOTE]  
 > Last update: 4 March 2025  
-> - These JupyterNotebooks are draft copies, many sections are still under construction.  
+> - These JupyterLab notebooks are draft copies, many sections are still under construction.  
 > - Spelling and grammar checks have not been completed.  
 > - These files are posted for testing only.  
 
