@@ -1,11 +1,8 @@
-work in progress backups
-
-
-The following table is a history of updates to the book project.
+The following table is a history of updates to the project.
 
 | Date | Event |
 |---|---|
-| 9/1/2023 | Around this time, testing Quarto, started this book project |
-| 12/1/2023 | Around this time, posting numerous test/draft versions to GitHub pages |
+| 27 Feb 2025 | initial un-numbered version |
+| 6 Mar 2025 | added v0 to file names, archived files to cloud |
 
 
