@@ -1,2 +1,8 @@
+EE_jupyter_notebooks
+
 # EE_jupyter_notebooks
-This repository will contain various Jupyter notebooks which explore electrical engineering problems. A link to my blog is [here](https://electrical-engineering-with-python.blogspot.com/).
+This repository contains various JupyterLab notebooks which explore electrical engineering problems. 
+
+> [!NOTE]
+>- The JupyterLab notebooks in this repository are working draft copies and many sections are incomplete.
+>- Basic spelling and grammar checks have not been completed.  
