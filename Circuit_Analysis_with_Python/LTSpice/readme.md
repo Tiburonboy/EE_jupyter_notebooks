@@ -1,1 +1,1 @@
-Folder for LTSPice files used in the paper.
+Folder for LTSpice files used in the paper.
