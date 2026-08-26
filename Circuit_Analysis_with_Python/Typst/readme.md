@@ -1,1 +1,1 @@
-
+Folder for Typst files
