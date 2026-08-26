@@ -1,7 +1,3 @@
-Place holder    
-
-
-
 # Circuit Analysis with Python
 Last update: 26 Aug 2026
 
