@@ -4,7 +4,7 @@ Last update: 26 Aug 2026
 Preliminary files uploaded for testing.
 
 ---
-Note: The purpose of this JypyterLab notebook is to draft a technical paper about circuit analysis with python. Once the contents have been completed, much of the dialog and results will be copied to [Typst](https://typst.app/) for conversion to a PDF. One column per page seems to work best for code figures and equations.
+Note: The purpose of this JypyterLab notebook is to draft a technical paper about circuit analysis with Python. Once the contents have been completed, much of the dialog and results will be copied to [Typst](https://typst.app/) for conversion to a PDF. One column of text per page seems to work best for code, figures and equations.
 
 ---
 
