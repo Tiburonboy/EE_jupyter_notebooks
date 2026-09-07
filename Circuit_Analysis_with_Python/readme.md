@@ -5,7 +5,7 @@ Preliminary files uploaded for testing.
 
 This folder contains the source material for the paper titled, _Circuit Analysis with Python_. The JypyterLab notebook, _Circuit_analysis_w_python.ipynb_, is the source material for the technical paper. Once the notebook has been completed, much of the dialog and results will be copied to [Typst](https://typst.app/) for conversion to a PDF. One column of text per page seems to work best for code, figures and equations. 
 
-The subfolder LTSpice contains *.asc and *.png files for the schematics used in the paper. The subfolder contains the the Typst files and the generated pdf. 
+The subfolder LTSpice contains *.asc and *.png files for the schematics used in the paper. The subfolder Typst contains the the Typst files and the generated pdf. 
 
 The abstract for the paper is copied here:
 
